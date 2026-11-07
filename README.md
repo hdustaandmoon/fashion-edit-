@@ -83,6 +83,22 @@
 
 ## 给维护人员
 
+### 飞书群每日通知
+
+在飞书群添加自定义机器人后，将 Webhook 保存到仓库 **Settings → Secrets and variables → Actions → New repository secret**，名称为 `FEISHU_WEBHOOK_URL`。不要把地址写进代码或公开文件。
+
+更新程序后，定时任务和手动运行任务会在网页部署成功后推送飞书摘要，包括趋势词数量、新增词、来源重点词、商家选品建议、看板及 Excel 下载链接。无新增也会推送当天摘要；普通文件提交只更新网站，不推送群消息。手动重复运行会再次发送。
+
+如果机器人启用了关键词校验，可将允许的关键词设为 `Fashion Edit`；启用签名校验时，还需将签名密钥保存为仓库 Secret `FEISHU_SIGN_SECRET`。如果启用了 IP 白名单，请确认执行任务的网络可以访问机器人。
+
+首次验证：上传 `notify_feishu.py`、新版 `.github/workflows/daily.yml` 和测试文件后，在 **Actions → Daily trends and Pages → Run workflow** 手动运行，检查群消息和 `Notify Feishu` 步骤。没有配置 Webhook 时跳过通知；发送失败会将通知步骤标红，但已经部署的网站仍可使用。网络超时不自动重发，请先检查群内是否收到，避免重复消息。
+
+消息较长时，只列出前 15 个新增词、前 15 个重点词和前 8 条建议，其余内容通过看板或 Excel 查看。Excel 以下载链接提供，不是飞书附件。
+
+[飞书自定义机器人官方说明](https://open.feishu.cn/document/client-docs/bot-v3/add-custom-bot)
+
+### 网站维护
+
 日常使用者直接访问看板即可。维护人员可在仓库 **Actions → Daily trends and Pages → Run workflow** 手动触发更新；部署来源应设为 **Settings → Pages → GitHub Actions**。
 
 项目文件：
@@ -90,6 +106,7 @@
 | 路径 | 用途 |
 | --- | --- |
 | `requirements.txt` | Excel 导出依赖 |
+| `notify_feishu.py` | 部署成功后发送飞书趋势摘要 |
 | `tracker.py` | 抓取关键词、比较变化并生成网页 |
 | `docs/` | 发布到 GitHub Pages 的看板 |
 | `docs/data/` | 当前数据和每日历史快照 |
