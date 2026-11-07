@@ -36,6 +36,12 @@ jobs:
       - uses: actions/upload-pages-artifact@v4
         with:
           path: docs
+      - name: Save notification snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: trend-notification-snapshot
+          path: docs/data/latest.json
+          retention-days: 3
   deploy:
     needs: update
     runs-on: ubuntu-latest
@@ -43,6 +49,24 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Deploy Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Download notification snapshot
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        uses: actions/download-artifact@v4
+        with:
+          name: trend-notification-snapshot
+          path: notification-data
+      - name: Notify Feishu
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_SIGN_SECRET: ${{ secrets.FEISHU_SIGN_SECRET }}
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+          SNAPSHOT_PATH: notification-data/latest.json
+        run: python notify_feishu.py
