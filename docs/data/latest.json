@@ -1,6 +1,6 @@
 {
   "date": "2026-11-07",
-  "checked_at": "2026-11-07T15:18:34.760249+08:00",
+  "checked_at": "2026-11-07T15:29:53.215111+08:00",
   "source": "https://fashion-edit-merchant.netlify.app/#trending",
   "baseline_date": null,
   "removed": [],
@@ -13,6 +13,7 @@
           "subgroup": "女士冬季服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -24,6 +25,7 @@
           "subgroup": "女士冬季服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -35,6 +37,7 @@
           "subgroup": "女士冬季服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -46,6 +49,7 @@
           "subgroup": "女士冬季服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -57,6 +61,7 @@
           "subgroup": "女士冬季服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -68,6 +73,7 @@
           "subgroup": "男士冬季服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -79,6 +85,7 @@
           "subgroup": "男士冬季服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -90,6 +97,7 @@
           "subgroup": "男士冬季服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -101,6 +109,7 @@
           "subgroup": "男士冬季服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -112,6 +121,7 @@
           "subgroup": "男士冬季服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -123,6 +133,7 @@
           "subgroup": "女士保暖打底"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -134,6 +145,7 @@
           "subgroup": "女士保暖打底"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -145,6 +157,7 @@
           "subgroup": "女士保暖打底"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -156,6 +169,7 @@
           "subgroup": "女士保暖打底"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -167,6 +181,7 @@
           "subgroup": "女士保暖打底"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -178,6 +193,7 @@
           "subgroup": "冬季保暖配饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -189,6 +205,7 @@
           "subgroup": "冬季保暖配饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -200,6 +217,7 @@
           "subgroup": "冬季保暖配饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -211,6 +229,7 @@
           "subgroup": "冬季保暖配饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -222,6 +241,7 @@
           "subgroup": "冬季保暖配饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -233,6 +253,7 @@
           "subgroup": "冬季鞋履"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -244,6 +265,7 @@
           "subgroup": "冬季鞋履"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -255,6 +277,7 @@
           "subgroup": "冬季鞋履"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -266,6 +289,7 @@
           "subgroup": "冬季鞋履"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -277,6 +301,7 @@
           "subgroup": "冬季鞋履"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -288,6 +313,7 @@
           "subgroup": "Buen Fin 服饰促销"
         }
       ],
+      "is_hot": true,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -299,6 +325,7 @@
           "subgroup": "Buen Fin 服饰促销"
         }
       ],
+      "is_hot": true,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -310,6 +337,7 @@
           "subgroup": "Buen Fin 服饰促销"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -321,6 +349,7 @@
           "subgroup": "Buen Fin 服饰促销"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -332,6 +361,7 @@
           "subgroup": "Buen Fin 服饰促销"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -343,6 +373,7 @@
           "subgroup": "圣诞家居睡衣"
         }
       ],
+      "is_hot": true,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -354,6 +385,7 @@
           "subgroup": "圣诞家居睡衣"
         }
       ],
+      "is_hot": true,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -365,6 +397,7 @@
           "subgroup": "圣诞家居睡衣"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -376,6 +409,7 @@
           "subgroup": "圣诞家居睡衣"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -391,6 +425,7 @@
           "subgroup": "Grinch 圣诞睡衣"
         }
       ],
+      "is_hot": true,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -402,6 +437,7 @@
           "subgroup": "圣诞针织服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -413,6 +449,7 @@
           "subgroup": "圣诞针织服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -424,6 +461,7 @@
           "subgroup": "圣诞针织服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -435,6 +473,7 @@
           "subgroup": "圣诞针织服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -446,6 +485,7 @@
           "subgroup": "圣诞针织服饰"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -457,6 +497,7 @@
           "subgroup": "圣诞派对穿搭"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -468,6 +509,7 @@
           "subgroup": "圣诞派对穿搭"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -479,6 +521,7 @@
           "subgroup": "圣诞派对穿搭"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -490,6 +533,7 @@
           "subgroup": "圣诞派对穿搭"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -501,6 +545,7 @@
           "subgroup": "圣诞派对穿搭"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -512,6 +557,7 @@
           "subgroup": "Jenni Rivera 主题周边"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -523,6 +569,7 @@
           "subgroup": "Jenni Rivera 主题周边"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -534,6 +581,7 @@
           "subgroup": "Jenni Rivera 主题周边"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -545,6 +593,7 @@
           "subgroup": "Jenni Rivera 主题周边"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -556,6 +605,7 @@
           "subgroup": "Jenni Rivera 主题周边"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -567,6 +617,7 @@
           "subgroup": "New Era 棒球帽及帽饰收藏"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -578,6 +629,7 @@
           "subgroup": "New Era 棒球帽及帽饰收藏"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -589,6 +641,7 @@
           "subgroup": "New Era 棒球帽及帽饰收藏"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -600,6 +653,7 @@
           "subgroup": "Alucín 街头风格"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -611,6 +665,7 @@
           "subgroup": "Alucín 街头风格"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -622,6 +677,7 @@
           "subgroup": "Alucín 街头风格"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -633,6 +689,7 @@
           "subgroup": "Alucín 街头风格"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -644,6 +701,7 @@
           "subgroup": "小众风格时尚"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -655,6 +713,7 @@
           "subgroup": "小众风格时尚"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -666,6 +725,7 @@
           "subgroup": "小众风格时尚"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -677,6 +737,7 @@
           "subgroup": "小众风格时尚"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -688,6 +749,7 @@
           "subgroup": "小众风格时尚"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -699,6 +761,7 @@
           "subgroup": "近期关注品牌"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -710,6 +773,7 @@
           "subgroup": "近期关注品牌"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -721,6 +785,7 @@
           "subgroup": "近期关注品牌"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -732,6 +797,7 @@
           "subgroup": "近期关注品牌"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -743,6 +809,7 @@
           "subgroup": "近期关注品牌"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -754,6 +821,7 @@
           "subgroup": "近期关注品牌"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -765,6 +833,7 @@
           "subgroup": "近期关注品牌"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -776,6 +845,7 @@
           "subgroup": "近期关注品牌"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -787,6 +857,7 @@
           "subgroup": "近期关注品牌"
         }
       ],
+      "is_hot": false,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -798,6 +869,7 @@
           "subgroup": "Grinch 主题服饰"
         }
       ],
+      "is_hot": true,
       "is_new": false,
       "first_seen": "2026-11-07"
     },
@@ -809,8 +881,27 @@
           "subgroup": "Grinch 圣诞睡衣"
         }
       ],
+      "is_hot": true,
       "is_new": false,
       "first_seen": "2026-11-07"
+    }
+  ],
+  "suggestions": [
+    {
+      "title": "提前布局冬季保暖商品",
+      "text": "重点关注女士毛衣、大衣、加绒打底、男士卫衣及冬季配饰（帽子、手套、围巾套装）。"
+    },
+    {
+      "title": "把握节日营销节点",
+      "text": "围绕 Buen Fin 促销、圣诞睡衣、圣诞毛衣及派对礼服，规划商品上新与促销活动节奏。"
+    },
+    {
+      "title": "关注社交媒体潮流风格",
+      "text": "留意棒球帽、街头宽松服饰、洛丽塔及哥特风格等细分市场，捕捉 TikTok 内容热度。"
+    },
+    {
+      "title": "开发节日主题商品",
+      "text": "关注 Grinch 等节日热门 IP 元素，丰富圣诞主题商品供给，把握季节性机会。"
     }
   ]
 }
