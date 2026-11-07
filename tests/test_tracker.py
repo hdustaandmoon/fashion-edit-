@@ -1,6 +1,9 @@
 from datetime import datetime
 import unittest
-from tracker import CN, build_snapshot, parse, render
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from openpyxl import load_workbook
+from tracker import CN, build_snapshot, export_excel, parse, parse_content, render
 
 
 class TrackerTests(unittest.TestCase):
@@ -10,6 +13,32 @@ class TrackerTests(unittest.TestCase):
         self.assertEqual(len(words), 1)
         self.assertEqual(words[0]['term'], 'A & B')
         self.assertEqual(words[0]['categories'][0]['group'], '🔥 风格')
+        self.assertTrue(words[0]['is_hot'])
+
+    def test_advice_and_excel(self):
+        html = '<section id="trending"><div class="trend-group-title">分类</div><span class="trend-tag hot">=1+1</span><div class="trend-suggestion-card"><span>💡</span><b>选品 &amp; 上新</b><p>关注<b>冬季</b>商品</p></div></section>'
+        words, suggestions = parse_content(html)
+        self.assertEqual(suggestions, [{'title': '选品 & 上新', 'text': '关注冬季商品'}])
+        snapshot = build_snapshot(words, {}, datetime(2026, 11, 7, tzinfo=CN))
+        snapshot['words'][0]['is_new'] = True
+        snapshot['suggestions'] = suggestions
+        page = render(snapshot)
+        self.assertIn('term hot new', page)
+        self.assertIn('选品 &amp; 上新', page)
+        self.assertIn('section:not(.advice)', page)
+        with TemporaryDirectory() as folder:
+            path = Path(folder) / 'test.xlsx'
+            export_excel(snapshot, path)
+            workbook = load_workbook(path)
+            self.assertEqual(workbook.sheetnames, ['趋势词', '选品建议'])
+            self.assertEqual(workbook['趋势词']['A2'].value, '=1+1')
+            self.assertEqual(workbook['趋势词']['A2'].data_type, 's')
+            self.assertEqual(workbook['趋势词']['D2'].value, '是')
+            self.assertEqual(workbook['趋势词']['E2'].value, '是')
+            self.assertEqual(workbook['趋势词']['A2'].fill.fgColor.rgb, '00FFF0B3')
+            self.assertEqual(workbook['趋势词']['A2'].font.color.rgb, '00B42832')
+            self.assertEqual(workbook['选品建议']['B2'].value, '关注冬季商品')
+            workbook.close()
 
     def test_baseline_repeat_and_removal(self):
         words = [{'term': 'old', 'categories': [{'group': 'group', 'subgroup': 'sub'}]}]
