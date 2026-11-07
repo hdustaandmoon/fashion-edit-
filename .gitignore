@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+source.html
+.venv/
+.env
+task_plan.md
+notes.md
+fashion-trend-tracker.zip
